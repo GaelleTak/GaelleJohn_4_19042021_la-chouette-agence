@@ -830,6 +830,13 @@ h4 {
     margin: auto;
 }
 
+.localisation p{
+    margin-left: 45em;
+    margin-top: 1em;
+    line-height: 2.25em;
+    font-size: 14px;
+}
+
 
 @media (max-width: 1024px) {
     .bloc {
