@@ -673,7 +673,7 @@ a {
 
 p {
     font-size: 15px;
-    padding-left: 4em;
+    padding-left: 1em;
     padding-top: 1.5em;
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
 
@@ -1077,7 +1077,7 @@ h4 {
     }
 
     .tc-white, h2.text-img,.mg-md, p.text-img{
-        font-size: 2em;
+        font-size: 1.25em;
         font-weight: bold;
     }
 
@@ -1088,7 +1088,7 @@ h4 {
         font-size: 1em;
     }
     p.text-center{
-        font-size: 0.85em;
+        font-size: 0.95em;
         padding-bottom: 3em;
     }
     #bloc-1-hero h1{
