@@ -505,6 +505,10 @@ button {
     box-shadow: none;
 }
 
+.form-control:focus{
+    border-color: black;
+}
+
 .scrollToTop {
     width: 40px;
     height: 40px;
@@ -855,6 +859,7 @@ h4 {
     line-height: 2.25em;
     font-size: 14px;
 }
+
 
 @media (max-width: 1024px) {
     .bloc {
