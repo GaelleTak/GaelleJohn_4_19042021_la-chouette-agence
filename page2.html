@@ -17,9 +17,9 @@
 	<link rel="stylesheet" type="text/css" href="./css/et-line.css">
 	
     
-	<script src="./js/jquery-2.1.0.js"></script>
-	<script src="./js/bootstrap.js"></script>
-	<script src="./js/blocs.js"></script>
+	<script src="./js/jquery-2.1.0.min.js"></script>
+	<script src="./js/bootstrap.min.js"></script>
+	<script src="./js/blocs.min.js"></script>
 	<script src="./js/jqBootstrapValidation.js" ></script>
 	<script src="./js/formHandler.js"></script>
 
@@ -84,12 +84,13 @@
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-sm-6">
-				<form id="form_1" novalidate >
+				<form id="form_1" novalidate data-success-msg="Your message has been sent." data-fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
 					<div class="form-group">
 						<label>
 							Nom
 						</label>
 						<input id="name" class="form-control" aria-label="Ajouter votre nom dans cette section" placeholder="Ajouter votre nom" required />
+					
 					</div>
 					<div class="form-group">
 						<label>
@@ -101,14 +102,14 @@
 						<label>
 							Comment nous avez-vous connu ?
 						</label>
-						<input class="form-control" type="email" aria-label=" Dans cette section, indiquer comment vous nous avez connu" placeholder="Indiquer comment vous nous avez connu" required id="input_504" />
+						<input class="form-control" aria-label=" Dans cette section, indiquer comment vous nous avez connu" placeholder="Indiquer comment vous nous avez connu" required />
 					</div>
 					<div class="form-group">
 						<label>
 							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
 						</label><textarea id="message" class="form-control" rows="4" cols="50" aria-label="Décrivez-nous votre projet dans cette section. N'hésitez pas à le détailler" placeholder="Décrivez-nous votre projet. N'hésitez pas à le détailler" required></textarea>
 					</div> 
-					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
+					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" title="Envoi du formulaire" type="submit">
 						Envoyer
 					</button>
 				</form>
